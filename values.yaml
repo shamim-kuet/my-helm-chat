@@ -1,14 +1,14 @@
-replicaCount: 3
+replicaCount: 4
 
 image:
   repository: shamimkuet/nginx
-  tag: 1.0.3
+  tag: 1.0.4
   pullPolicy: IfNotPresent
 
 service:
   type: NodePort
   port: 80
-  nodePort: 31702
+  nodePort: 31704
 
 ingress:
   enabled: false

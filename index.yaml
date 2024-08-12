@@ -2,11 +2,11 @@ apiVersion: v1
 entries:
   my-helm-chart:
   - apiVersion: v2
-    created: "2024-08-12T08:32:09.491098621+06:00"
+    created: "2024-08-12T08:35:46.757122971+06:00"
     description: A Helm chart for Kubernetes to deploy NGINX
-    digest: 9aa21a9984fc3ff195dbdc4a8f273e20da837a5fe12ce9e914378418582a08d7
+    digest: 007abcdfe61f5717cf8a42f9297100183630aec3fcb5a9b2ec85d48632bed74a
     name: my-helm-chart
     urls:
     - my-helm-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-12T08:32:09.490800092+06:00"
+generated: "2024-08-12T08:35:46.756770399+06:00"

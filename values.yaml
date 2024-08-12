@@ -1,0 +1,16 @@
+replicaCount: 1
+
+image:
+  repository: shamimkuet/nginx
+  tag: 1.0.1
+  pullPolicy: IfNotPresent
+
+service:
+  type: NodePort
+  port: 80
+  nodePort: 31701
+
+ingress:
+  enabled: false
+
+resources: {}
